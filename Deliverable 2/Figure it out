@@ -1,0 +1,9 @@
+function makeArray(min, max){
+var newArray = [];
+for (var i = min; i<= max; i++){
+  newArray.push(i);
+}
+return newArray;
+}
+ 
+ makeArray (-2, 17);

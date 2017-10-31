@@ -1,0 +1,21 @@
+.one {
+    float: left;
+
+}
+.two{
+    float: left; 
+}
+.three {
+    position: relative;
+    top: 0;
+    right: 0;
+}
+.four {
+        position: relative;
+      }
+      nav {
+        position: absolute;
+        left: 0px;
+        width: 200px;
+      }
+}
