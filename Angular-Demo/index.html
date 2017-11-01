@@ -1,0 +1,28 @@
+<!doctype html>
+<html ng-app>
+  <head>
+    </head>
+  <body>
+    <div>
+      <label>Name:</label>
+      <input type="text" ng-model="yourName" placeholder="enter a name here">
+      <input type="yes || no" ng-model="teacher" placeholder="Are you a teacher?">
+      
+      <hr>
+      <h1>Hello
+          <span ng-if="yourName">{{yourName}}</span>
+          <span ng-if="!yourName">__________</span> how are you today?
+          It is {{ teacher.toLowerCase() === 'yes' || yourName.toLowerCase() ==='Boss'}} that you are the teacher.
+      </h1>
+      <span>   1+2 = {{1+2}} 
+
+      </span>
+      <span ng-init="mood='irritated'">   My mood is {{ mood + "!" }} 
+          </span> 
+      
+
+      </h2>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.6/angular.min.js"></script>
+  </body>
+</html>
